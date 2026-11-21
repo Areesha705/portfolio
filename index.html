@@ -1,0 +1,1606 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Areesha | Web Developer, SEO Specialist &amp; Digital Marketer</title>
+  <meta name="description" content="Professional Portfolio and Online CV of Areesha — BS Information Technology Student at Muhammad Nawaz Shareef University of Agriculture, Multan, Web Developer, SEO Specialist, and Digital Marketer." />
+
+  <!-- Google Fonts: Plus Jakarta Sans & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ==================== SHARED HEADER & NAVIGATION ==================== -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a href="#home" class="brand-logo" data-page="home">
+        <span class="logo-badge">A</span>
+        <span class="logo-text">Areesha<span class="logo-dot">.</span></span>
+      </a>
+
+      <!-- Desktop Navigation (Connects All 20 Pages Cleanly) -->
+      <nav class="desktop-nav" aria-label="Primary Navigation">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link active" data-page="home">Home</a></li>
+
+          <li class="nav-dropdown">
+            <button class="nav-link dropdown-trigger" type="button">
+              Profile <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a href="#about" class="nav-link" data-page="about"><i class="fa-regular fa-user"></i> About Me</a></li>
+              <li><a href="#resume" class="nav-link" data-page="resume"><i class="fa-regular fa-file-lines"></i> Professional Resume</a></li>
+              <li><a href="#education" class="nav-link" data-page="education"><i class="fa-solid fa-graduation-cap"></i> Education</a></li>
+              <li><a href="#experience" class="nav-link" data-page="experience"><i class="fa-solid fa-briefcase"></i> Work Experience</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-dropdown">
+            <button class="nav-link dropdown-trigger" type="button">
+              Skills <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a href="#technical-skills" class="nav-link" data-page="technical-skills"><i class="fa-solid fa-code"></i> Technical Skills</a></li>
+              <li><a href="#soft-skills" class="nav-link" data-page="soft-skills"><i class="fa-solid fa-people-group"></i> Soft Skills</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-dropdown">
+            <button class="nav-link dropdown-trigger" type="button">
+              Expertise &amp; Services <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <ul class="dropdown-menu dropdown-wide">
+              <li><a href="#services" class="nav-link" data-page="services"><i class="fa-solid fa-layer-group"></i> My Services Overview</a></li>
+              <li><a href="#web-development" class="nav-link" data-page="web-development"><i class="fa-solid fa-laptop-code"></i> Web Development</a></li>
+              <li><a href="#frontend-development" class="nav-link" data-page="frontend-development"><i class="fa-brands fa-html5"></i> Front-End Development</a></li>
+              <li><a href="#wordpress-development" class="nav-link" data-page="wordpress-development"><i class="fa-brands fa-wordpress"></i> WordPress Development</a></li>
+              <li><a href="#seo-services" class="nav-link" data-page="seo-services"><i class="fa-solid fa-magnifying-glass-chart"></i> SEO Services</a></li>
+              <li><a href="#digital-marketing" class="nav-link" data-page="digital-marketing"><i class="fa-solid fa-bullhorn"></i> Digital Marketing</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-dropdown">
+            <button class="nav-link dropdown-trigger" type="button">
+              Portfolio <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a href="#web-projects" class="nav-link" data-page="web-projects"><i class="fa-solid fa-globe"></i> Web Dev Projects</a></li>
+              <li><a href="#seo-projects" class="nav-link" data-page="seo-projects"><i class="fa-solid fa-chart-line"></i> SEO Projects</a></li>
+              <li><a href="#gallery" class="nav-link" data-page="gallery"><i class="fa-regular fa-images"></i> Portfolio Gallery</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-dropdown">
+            <button class="nav-link dropdown-trigger" type="button">
+              Credentials <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a href="#certifications" class="nav-link" data-page="certifications"><i class="fa-solid fa-certificate"></i> Certifications</a></li>
+              <li><a href="#achievements" class="nav-link" data-page="achievements"><i class="fa-solid fa-award"></i> Achievements</a></li>
+              <li><a href="#testimonials" class="nav-link" data-page="testimonials"><i class="fa-regular fa-comment-dots"></i> Testimonials</a></li>
+            </ul>
+          </li>
+
+          <li><a href="#contact" class="nav-link" data-page="contact">Contact Me</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button type="button" class="btn btn-sm btn-outline download-cv-trigger">
+          <i class="fa-solid fa-download"></i> CV
+        </button>
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Open Navigation Menu" aria-expanded="false">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Navigation Drawer (All 20 Pages Accessible) -->
+    <div class="mobile-nav" id="mobileNav">
+      <div class="mobile-nav-inner">
+        <p class="mobile-nav-group-title">Main</p>
+        <a href="#home" class="nav-link active" data-page="home">1. Home</a>
+        <a href="#about" class="nav-link" data-page="about">2. About Me</a>
+        <a href="#resume" class="nav-link" data-page="resume">3. Professional Resume</a>
+        <a href="#education" class="nav-link" data-page="education">4. Education</a>
+        <a href="#experience" class="nav-link" data-page="experience">5. Work Experience</a>
+
+        <p class="mobile-nav-group-title">Skills &amp; Specializations</p>
+        <a href="#technical-skills" class="nav-link" data-page="technical-skills">6. Technical Skills</a>
+        <a href="#soft-skills" class="nav-link" data-page="soft-skills">7. Soft Skills</a>
+        <a href="#web-development" class="nav-link" data-page="web-development">8. Web Development</a>
+        <a href="#frontend-development" class="nav-link" data-page="frontend-development">9. Front-End Development</a>
+        <a href="#wordpress-development" class="nav-link" data-page="wordpress-development">10. WordPress Development</a>
+        <a href="#seo-services" class="nav-link" data-page="seo-services">11. SEO Services</a>
+        <a href="#digital-marketing" class="nav-link" data-page="digital-marketing">12. Digital Marketing</a>
+
+        <p class="mobile-nav-group-title">Projects &amp; Credentials</p>
+        <a href="#seo-projects" class="nav-link" data-page="seo-projects">13. SEO Projects</a>
+        <a href="#web-projects" class="nav-link" data-page="web-projects">14. Web Development Projects</a>
+        <a href="#gallery" class="nav-link" data-page="gallery">15. Portfolio Gallery</a>
+        <a href="#certifications" class="nav-link" data-page="certifications">16. Certifications</a>
+        <a href="#achievements" class="nav-link" data-page="achievements">17. Achievements</a>
+        <a href="#services" class="nav-link" data-page="services">18. My Services</a>
+        <a href="#testimonials" class="nav-link" data-page="testimonials">19. Testimonials</a>
+        <a href="#contact" class="nav-link" data-page="contact">20. Contact Me</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==================== MAIN CONTENT (20 SEPARATE PAGES) ==================== -->
+  <main id="mainContent">
+
+    <!-- =========================================================================
+         PAGE 1: HOME
+    ========================================================================== -->
+    <section class="page-view active" id="page-home" data-title="Home">
+      <div class="hero-section">
+        <div class="container hero-grid">
+          <div class="hero-content reveal">
+            <div class="status-pill">
+              <span class="status-dot"></span> Available for Internships, Freelance &amp; Collaboration
+            </div>
+            <p class="hero-intro-tag">Hi, I'm Areesha</p>
+            <h1 class="hero-title">Web Developer &amp; SEO Specialist</h1>
+            <h2 class="hero-typing-line">
+              Focused on <span id="typingText" class="typing-highlight"></span><span class="cursor">|</span>
+            </h2>
+            <p class="hero-description">
+              A dedicated BS Information Technology student (5th Semester, 3.71 CGPA) at Muhammad Nawaz Shareef University of Agriculture, Multan, with NAVTTC Digital Marketing training and Triventa Global SEO/Digital Marketing OJT experience[cite: 2], combining clean web development with practical search visibility.
+            </p>
+
+            <div class="hero-buttons">
+              <button type="button" class="btn btn-primary download-cv-trigger">
+                <i class="fa-solid fa-file-arrow-down"></i> Download CV
+              </button>
+              <a href="#web-projects" class="btn btn-secondary" data-page="web-projects">
+                <i class="fa-solid fa-folder-open"></i> View My Projects
+              </a>
+              <a href="#contact" class="btn btn-outline" data-page="contact">
+                <i class="fa-regular fa-paper-plane"></i> Contact Me
+              </a>
+            </div>
+
+            <!-- Social Media & Profile Buttons -->
+            <div class="hero-socials">
+              <span class="social-label">Follow &amp; Connect:</span>
+              <a href="https://www.linkedin.com/in/areesha-rasheed-110907450/" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn" title="LinkedIn: Areesha Rasheed">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a href="https://www.instagram.com/areeshy_dm_and_seo/" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Instagram" title="Instagram: @AREESHY_DM_AND_SEO">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a href="https://www.facebook.com/share/1UUg393RMX/" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Facebook Link 1" title="Facebook Link 1">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+              <a href="https://www.facebook.com/share/1HiXhgkHxn/" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Facebook Link 2" title="Facebook Link 2">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+              <a href="https://wa.me/923187885089" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="WhatsApp" title="WhatsApp: +92 318 7885089">
+                <i class="fa-brands fa-whatsapp"></i>
+              </a>
+              <a href="mailto:rasheedareesha41@gmail.com" class="social-icon" aria-label="Email" title="Email: rasheedareesha41@gmail.com">
+                <i class="fa-regular fa-envelope"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="hero-visual reveal">
+            <div class="profile-frame">
+              <div class="profile-bg-shape"></div>
+              <img
+                src="profile.jpeg"
+                alt="Areesha - Web Developer and SEO Specialist"
+                class="profile-photo"
+                onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+              />
+              <div class="profile-placeholder" style="display: none;">
+                <i class="fa-regular fa-user"></i>
+                <span>Areesha</span>
+                <small>Add images/profile.jpg</small>
+              </div>
+
+              <div class="floating-badge badge-top">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <div>
+                  <strong>3.71 CGPA</strong>
+                  <span>BS IT (5th Semester)</span>
+                </div>
+              </div>
+
+              <div class="floating-badge badge-bottom">
+                <i class="fa-solid fa-briefcase"></i>
+                <div>
+                  <strong>NAVTTC &amp; OJT</strong>
+                  <span>SEO &amp; Digital Marketing[cite: 2]</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quick Highlights Strip -->
+      <div class="section-soft">
+        <div class="container">
+          <div class="stats-grid reveal">
+            <div class="stat-card">
+              <div class="stat-icon icon-purple"><i class="fa-solid fa-laptop-code"></i></div>
+              <h3>Web Development</h3>
+              <p>Responsive HTML5, CSS3, JavaScript &amp; WordPress sites built with clean layouts.</p>
+            </div>
+            <div class="stat-card">
+              <div class="stat-icon icon-blue"><i class="fa-solid fa-magnifying-glass-chart"></i></div>
+              <h3>SEO Optimization</h3>
+              <p>On-Page SEO, Off-Page SEO, keyword research &amp; Google My Business (GMB) SEO[cite: 2].</p>
+            </div>
+            <div class="stat-card">
+              <div class="stat-icon icon-lavender"><i class="fa-solid fa-bullhorn"></i></div>
+              <h3>Digital Marketing</h3>
+              <p>Trained through NAVTTC and practical OJT work on live web projects[cite: 2].</p>
+            </div>
+            <div class="stat-card">
+              <div class="stat-icon icon-purple"><i class="fa-solid fa-award"></i></div>
+              <h3>3.71 CGPA</h3>
+              <p>Consistent academic performance in BS Information Technology (5th Semester).</p>
+            </div>
+          </div>
+
+          <!-- Quick Page Directory Cards -->
+          <div class="section-header center reveal">
+            <span class="section-badge">Explore Portfolio</span>
+            <h2>Navigate My Complete Online CV</h2>
+            <p>Jump directly to any section of my academic background, NAVTTC &amp; OJT training, skills, services, or projects[cite: 2].</p>
+          </div>
+
+          <div class="quick-nav-grid reveal">
+            <a href="#resume" data-page="resume" class="quick-card">
+              <i class="fa-regular fa-file-lines"></i>
+              <h4>Interactive CV</h4>
+              <span>Full resume &amp; PDF export</span>
+            </a>
+            <a href="#technical-skills" data-page="technical-skills" class="quick-card">
+              <i class="fa-solid fa-sliders"></i>
+              <h4>Technical Skills</h4>
+              <span>Web, SEO &amp; Office tools</span>
+            </a>
+            <a href="#experience" data-page="experience" class="quick-card">
+              <i class="fa-solid fa-briefcase"></i>
+              <h4>Experience &amp; OJT</h4>
+              <span>Triventa Global &amp; internship[cite: 2]</span>
+            </a>
+            <a href="#gallery" data-page="gallery" class="quick-card">
+              <i class="fa-regular fa-file-pdf"></i>
+              <h4>CV &amp; OJT Letter</h4>
+              <span>Document &amp; letter proof[cite: 2]</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         PAGE 2: ABOUT ME
+    ========================================================================== -->
+    <section class="page-view" id="page-about" data-title="About Me">
+      <div class="page-banner">
+        <div class="container">
+          <span class="section-badge">Page 02 • Personal Profile</span>
+          <h1>About Me</h1>
+          <p>Combining Information Technology fundamentals, NAVTTC training, and practical SEO &amp; web skills[cite: 2].</p>
+        </div>
+      </div>
+
+      <div class="container section-padding">
+        <div class="two-col-grid reveal">
+          <div class="card">
+            <h2>Who I Am</h2>
+            <p>
+              Hello! I am <strong>Areesha</strong>, a <strong>Web Developer, SEO Specialist, and Digital Marketer</strong> currently studying <strong>BS Information Technology</strong> (5th Semester) at <strong>Muhammad Nawaz Shareef University of Agriculture, Multan</strong> with a <strong>3.71 CGPA</strong>.
+            </p>
+            <p>
+              I completed Digital Marketing training through <strong>NAVTTC</strong>, completed a two-week <strong>On Job Training (OJT) in Digital Marketing &amp; SEO with Triventa Global (Multan)</strong>[cite: 2], and also hold <strong>1 year of basic computer internship experience</strong>.
+            </p>
+            <p>
+              During my OJT at Triventa Global, I worked on tasks connected to <code>pdfsulotinco.com</code>, <code>thelovepad.com</code>, and <strong>Google My Business (GMB) SEO</strong>[cite: 2].
+            </p>
+            <div class="btn-group mt-20">
+              <a href="#resume" data-page="resume" class="btn btn-primary">View Full CV</a>
+              <a href="#contact" data-page="contact" class="btn btn-outline">Get In Touch</a>
+            </div>
+          </div>
+
+          <div class="card card-tinted">
+            <h3>Personal &amp; Training Snapshot</h3>
+            <ul class="info-list">
+              <li><span>Full Name:</span> <strong>Areesha</strong></li>
+              <li><span>Degree Program:</span> <strong>BS Information Technology</strong></li>
+              <li><span>Current Semester:</span> <strong>5th Semester</strong></li>
+              <li><span>Current CGPA:</span> <strong>3.71</strong></li>
+              <li><span>University:</span> <strong>Muhammad Nawaz Shareef University of Agriculture, Multan</strong></li>
+              <li><span>City:</span> <strong>Multan</strong></li>
+              <li><span>Digital Marketing Training:</span> <strong>NAVTTC</strong></li>
+              <li><span>OJT Program:</span> <strong>Triventa Global (Multan) — SEO &amp; Digital Marketing[cite: 2]</strong></li>
+              <li><span>Additional Experience:</span> <strong>1 Year Basic Computer Internship</strong></li>
+              <li><span>Instagram:</span> <strong><a href="https://www.instagram.com/areeshy_dm_and_seo/" target="_blank" rel="noopener noreferrer">@AREESHY_DM_AND_SEO</a></strong></li>
+              <li><span>LinkedIn:</span> <strong><a href="https://www.linkedin.com/in/areesha-rasheed-110907450/" target="_blank" rel="noopener noreferrer">Areesha Rasheed</a></strong></li>
+              <li><span>Email:</span> <strong><a href="mailto:rasheedareesha41@gmail.com">rasheedareesha41@gmail.com</a></strong></li>
+              <li><span>WhatsApp:</span> <strong><a href="https://wa.me/923187885089" target="_blank" rel="noopener noreferrer">+92 318 7885089</a></strong></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         PAGE 3: PROFESSIONAL RESUME (ONLINE CV)
+    ========================================================================== -->
+    <section class="page-view" id="page-resume" data-title="Professional Resume">
+      <div class="page-banner">
+        <div class="container banner-flex">
+          <div>
+            <span class="section-badge">Page 03 • Curriculum Vitae</span>
+            <h1>Professional Resume</h1>
+            <p>Structured online CV with direct PDF download and print-ready formatting.</p>
+          </div>
+          <button type="button" class="btn btn-primary download-cv-trigger">
+            <i class="fa-solid fa-download"></i> Download CV (PDF)
+          </button>
+        </div>
+      </div>
+
+      <div class="container section-padding">
+        <div class="cv-document reveal" id="cvPrintableArea">
+          <div class="cv-header">
+            <div>
+              <h2>Areesha</h2>
+              <p class="cv-role">Web Developer • SEO Specialist • Digital Marketer</p>
+            </div>
+            <div class="cv-contact-block">
+              <p><i class="fa-regular fa-envelope"></i> rasheedareesha41@gmail.com</p>
+              <p><i class="fa-brands fa-whatsapp"></i> +92 318 7885089</p>
+              <p><i class="fa-brands fa-instagram"></i> @AREESHY_DM_AND_SEO</p>
+              <p><i class="fa-solid fa-location-dot"></i> Multan, Pakistan</p>
+            </div>
+          </div>
+
+          <div class="cv-section">
+            <h3><i class="fa-regular fa-user"></i> Professional Summary</h3>
+            <p>
+              BS Information Technology student (5th Semester, 3.71 CGPA) at Muhammad Nawaz Shareef University of Agriculture, Multan, trained in Digital Marketing through NAVTTC, with practical On Job Training (OJT) experience in Digital Marketing &amp; SEO at Triventa Global (Multan)[cite: 2] and 1 year of basic computer internship experience. Skilled in HTML, CSS, JavaScript, WordPress, On-Page &amp; Off-Page SEO, keyword research, content optimization, and MS Office tools.
+            </p>
+          </div>
+
+          <div class="cv-two-col">
+            <div class="cv-section">
+              <h3><i class="fa-solid fa-graduation-cap"></i> Education &amp; Training</h3>
+              <div class="cv-item">
+                <h4>BS Information Technology</h4>
+                <span class="cv-meta">Muhammad Nawaz Shareef University of Agriculture, Multan • 5th Semester</span>
+                <p><strong>CGPA:</strong> 3.71</p>
+              </div>
+              <div class="cv-item">
+                <h4>Digital Marketing Training — NAVTTC</h4>
+                <span class="cv-meta">NAVTTC Program • Digital Marketing &amp; Online Growth</span>
+                <p>Practical training in digital marketing fundamentals, audience reach, and search visibility.</p>
+              </div>
+            </div>
+
+            <div class="cv-section">
+              <h3><i class="fa-solid fa-briefcase"></i> Experience &amp; OJT</h3>
+              <div class="cv-item">
+                <h4>On Job Training (OJT) — Digital Marketing &amp; SEO</h4>
+                <span class="cv-meta">Triventa Global (Multan) • 5 Oct 2026 – 16 Oct 2026[cite: 2]</span>
+                <ul>
+                  <li>Worked on SEO &amp; digital marketing tasks for <code>pdfsulotinco.com</code> and <code>thelovepad.com</code>[cite: 2].</li>
+                  <li>Assisted with Google My Business (GMB) SEO for Triventa Global[cite: 2].</li>
+                </ul>
+              </div>
+              <div class="cv-item">
+                <h4>Basic Computer Intern</h4>
+                <span class="cv-meta">Multan • 1 Year</span>
+                <ul>
+                  <li>Handled documentation, spreadsheets, presentations, and routine computer operations using MS Word, Excel, and PowerPoint.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="cv-two-col">
+            <div class="cv-section">
+              <h3><i class="fa-solid fa-code"></i> Technical Skills</h3>
+              <div class="tag-cloud">
+                <span class="skill-pill">HTML</span>
+                <span class="skill-pill">CSS</span>
+                <span class="skill-pill">JavaScript</span>
+                <span class="skill-pill">WordPress</span>
+                <span class="skill-pill">SEO</span>
+                <span class="skill-pill">On-Page SEO</span>
+                <span class="skill-pill">Off-Page SEO</span>
+                <span class="skill-pill">Keyword Research</span>
+                <span class="skill-pill">Content Optimization</span>
+                <span class="skill-pill">Digital Marketing</span>
+                <span class="skill-pill">MS Word</span>
+                <span class="skill-pill">MS Excel</span>
+                <span class="skill-pill">PowerPoint</span>
+                <span class="skill-pill">Basic Computer Operations</span>
+              </div>
+            </div>
+
+            <div class="cv-section">
+              <h3><i class="fa-solid fa-people-group"></i> Soft Skills</h3>
+              <div class="tag-cloud">
+                <span class="skill-pill pill-blue">Clear Communication</span>
+                <span class="skill-pill pill-blue">Time Management</span>
+                <span class="skill-pill pill-blue">Attention to Detail</span>
+                <span class="skill-pill pill-blue">Problem Solving</span>
+                <span class="skill-pill pill-blue">Adaptability</span>
+                <span class="skill-pill pill-blue">Team Collaboration</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="cv-section">
+            <h3><i class="fa-solid fa-folder-open"></i> Featured Portfolio Projects</h3>
+            <ul class="cv-project-list">
+              <li><strong>Personal Portfolio Website:</strong> 20-page responsive online CV and portfolio built with HTML5, CSS3, and Vanilla JavaScript.</li>
+              <li><strong>Business Website:</strong> Clean service-oriented website layout designed for clarity and responsive performance.</li>
+              <li><strong>SEO Optimization Project:</strong> Keyword research, on-page optimization, content optimization, and GMB SEO workflows[cite: 2].</li>
+              <li><strong>WordPress Website:</strong> WordPress site setup, structure, and search optimization.</li>
+              <li><strong>Digital Marketing Project:</strong> NAVTTC-informed digital marketing and search visibility planning.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="info-callout mt-20 reveal">
+          <i class="fa-solid fa-circle-info"></i>
+          <div>
+            <strong>CV Upload / PDF Note:</strong> Place your PDF file at <code>Areesha-Portfolio/cv.pdf</code> so clicking "Download CV" downloads it directly—or use the browser's Print / "Save as PDF" option from this page anytime.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         PAGE 4: EDUCATION
+    ========================================================================== -->
+    <section class="page-view" id="page-education" data-title="Education">
+      <div class="page-banner">
+        <div class="container">
+          <span class="section-badge">Page 04 • Academic Background</span>
+          <h1>Education</h1>
+          <p>Academic qualifications, current university standing, and relevant IT coursework in Multan.</p>
+        </div>
+      </div>
+
+      <div class="container section-padding">
+        <div class="timeline reveal">
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="card">
+              <div class="card-top-row">
+                <span class="badge-purple">In Progress • 5th Semester</span>
+                <span class="cgpa-pill">CGPA: 3.71 / 4.00</span>
+              </div>
+              <h3>Bachelor of Science in Information Technology (BS IT)</h3>
+              <p class="subtitle-text">Muhammad Nawaz Shareef University of Agriculture, Multan — Multan</p>
+              <p>
+                Building strong theoretical and practical foundations in web technologies, database concepts, programming fundamentals, networking, and digital information systems while maintaining a 3.71 CGPA.
+              </p>
+              <div class="tag-cloud mt-15">
+                <span class="skill-pill">Web Technologies</span>
+                <span class="skill-pill">Programming Fundamentals</span>
+                <span class="skill-pill">Database Systems</span>
+                <span class="skill-pill">Information Systems</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="card">
+              <div class="card-top-row">
+                <span class="badge-blue">Completed</span>
+                <span class="muted-meta">Multan</span>
+              </div>
+              <h3>Intermediate / Higher Secondary Education</h3>
+              <p class="subtitle-text">Multan</p>
+              <p>Completed intermediate education in Multan.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="card">
+              <div class="card-top-row">
+                <span class="badge-blue">Completed</span>
+                <span class="muted-meta">Multan</span>
+              </div>
+              <h3>Matriculation / Secondary School Certificate</h3>
+              <p class="subtitle-text">Multan</p>
+              <p>Completed secondary school education in Multan.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         PAGE 5: WORK EXPERIENCE
+    ========================================================================== -->
+    <section class="page-view" id="page-experience" data-title="Work Experience">
+      <div class="page-banner">
+        <div class="container">
+          <span class="section-badge">Page 05 • Practical Experience &amp; OJT</span>
+          <h1>Work Experience</h1>
+          <p>Hands-on On Job Training (OJT) in SEO &amp; Digital Marketing and 1-year basic computer internship experience[cite: 2].</p>
+        </div>
+      </div>
+
+      <div class="container section-padding">
+        <div class="timeline reveal">
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="card">
+              <div class="card-top-row">
+                <span class="badge-purple">OJT • 5 Oct 2026 – 16 Oct 2026[cite: 2]</span>
+                <span class="muted-meta">Triventa Global (Multan) • 9:00 AM – 1:00 PM[cite: 2]</span>
+              </div>
+              <h3>On Job Training (OJT) — Digital Marketing &amp; SEO[cite: 2]</h3>
+              <p class="subtitle-text">Triventa Global (Multan) • Venue: Ace Connect Institute, 14A, near Golbagh, Gulghast, Multan[cite: 2]</p>
+              <p>
+                Completed practical On Job Training focused on Digital Marketing and SEO[cite: 2].
+              </p>
+              <h4 class="mt-15">Key Websites &amp; Tasks Covered:</h4>
+              <ul class="styled-list">
+                <li>Worked on SEO &amp; digital marketing tasks for <strong>https://www.pdfsulotinco.com/</strong>[cite: 2].</li>
+                <li>Worked on SEO &amp; digital marketing tasks for <strong>https://thelovepad.com/</strong>[cite: 2].</li>
+                <li>Worked on <strong>Google My Business (GMB) SEO</strong> for Triventa Global[cite: 2].</li>
+              </ul>
+              <div class="mt-15">
+                <a href="#gallery" data-page="gallery" class="btn btn-sm btn-secondary">
+                  <i class="fa-regular fa-file-lines"></i> View OJT Letter in Gallery
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="card">
+              <div class="card-top-row">
+                <span class="badge-blue">1 Year Experience</span>
+                <span class="muted-meta">Multan</span>
+              </div>
+              <h3>Basic Computer Intern</h3>
+              <p class="subtitle-text">Multan</p>
+              <p>
+                Completed a one-year foundational computer internship focused on daily office productivity, structured documentation, and accurate digital record management.
+              </p>
+              <h4 class="mt-15">Key Responsibilities &amp; Daily Tasks:</h4>
+              <ul class="styled-list">
+                <li><strong>Document Preparation:</strong> Drafted and formatted documents and reports in MS Word.</li>
+                <li><strong>Data &amp; Spreadsheets:</strong> Maintained organized records and tables in MS Excel.</li>
+                <li><strong>Presentations:</strong> Prepared clear informational slides in PowerPoint.</li>
+                <li><strong>Computer Operations:</strong> Managed files, data entry, and routine computer operations.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         PAGE 6: TECHNICAL SKILLS
+    ========================================================================== -->
+    <section class="page-view" id="page-technical-skills" data-title="Technical Skills">
+      <div class="page-banner">
+        <div class="container">
+          <span class="section-badge">Page 06 • Core Capabilities</span>
+          <h1>Technical Skills</h1>
+          <p>Web development, search engine optimization, NAVTTC digital marketing skills, and office tools.</p>
+        </div>
+      </div>
+
+      <div class="container section-padding">
+        <div class="info-callout mb-25 reveal">
+          <i class="fa-solid fa-sliders"></i>
+          <div>
+            <strong>Editable Proficiency Levels:</strong> The percentage values below use editable placeholders (<code>[Editable %]</code>) that you can customize anytime in <code>index.html</code>.
+          </div>
+        </div>
+
+        <div class="three-col-grid reveal">
+          <!-- Category 1: Web & CMS -->
+          <div class="card">
+            <div class="card-icon icon-purple"><i class="fa-solid fa-code"></i></div>
+            <h3>Web &amp; CMS Development</h3>
+            <div class="skill-bars">
+              <div class="skill-bar-item">
+                <div class="skill-bar-header"><span>HTML</span><span>[85%]</span></div>
+                <div class="progress-track"><div class="progress-fill" style="width: 85%;"></div></div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-bar-header"><span>CSS</span><span>[80%]</span></div>
+                <div class="progress-track"><div class="progress-fill" style="width: 80%;"></div></div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-bar-header"><span>JavaScript</span><span>[70%]</span></div>
+                <div class="progress-track"><div class="progress-fill" style="width: 70%;"></div></div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-bar-header"><span>WordPress</span><span>[80%]</span></div>
+                <div class="progress-track"><div class="progress-fill" style="width: 80%;"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 2: SEO & Digital Marketing -->
+          <div class="card">
+            <div class="card-icon icon-blue"><i class="fa-solid fa-magnifying-glass-chart"></i></div>
+            <h3>SEO &amp; Digital Marketing</h3>
+            <div class="skill-bars">
+              <div class="skill-bar-item">
+                <div class="skill-bar-header"><span>SEO</span><span>[85%]</span></div>
+                <div class="progress-track"><div class="progress-fill fill-blue" style="width: 85%;"></div></div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-bar-header"><span>On-Page SEO</span><span>[85%]</span></div>
+                <div class="progress-track"><div class="progress-fill fill-blue" style="width: 85%;"></div></div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-bar-header"><span>Off-Page SEO</span><span>[75%]</span></div>
+                <div class="progress-track"><div class="progress-fill fill-blue" style="width: 75%;"></div></div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-bar-header"><span>Keyword Research</span><span>[80%]</span></div>
+                <div class="progress-track"><div class="progress-fill fill-blue" style="width: 80%;"></div></div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-bar-header"><span>Content Optimization</span><span>[80%]</span></div>
+                <div class="progress-track"><div class="progress-fill fill-blue" style="width: 80%;"></div></div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-bar-header"><span>Digital Marketing</span><span>[80%]</span></div>
+                <div class="progress-track"><div class="progress-fill fill-blue" style="width: 80%;"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 3: Office & Operations -->
+          <div class="card">
+            <div class="card-icon icon-lavender"><i class="fa-solid fa-desktop"></i></div>
+            <h3>Office &amp; Computer Operations</h3>
+            <div class="skill-bars">
+              <div class="skill-bar-item">
+                <div class="skill-bar-header"><span>MS Word</span><span>[90%]</span></div>
+                <div class="progress-track"><div class="progress-fill" style="width: 90%;"></div></div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-bar-header"><span>MS Excel</span><span>[80%]</span></div>
+                <div class="progress-track"><div class="progress-fill" style="width: 80%;"></div></div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-bar-header"><span>PowerPoint</span><span>[85%]</span></div>
+                <div class="progress-track"><div class="progress-fill" style="width: 85%;"></div></div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-bar-header"><span>Basic Computer Operations</span><span>[90%]</span></div>
+                <div class="progress-track"><div class="progress-fill" style="width: 90%;"></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         PAGE 7: SOFT SKILLS
+    ========================================================================== -->
+    <section class="page-view" id="page-soft-skills" data-title="Soft Skills">
+      <div class="page-banner">
+        <div class="container">
+          <span class="section-badge">Page 07 • Interpersonal Strengths</span>
+          <h1>Soft Skills</h1>
+          <p>Work ethic, communication, and adaptability built through academics, NAVTTC training, and OJT[cite: 2].</p>
+        </div>
+      </div>
+
+      <div class="container section-padding">
+        <div class="three-col-grid reveal">
+          <div class="card">
+            <div class="card-icon icon-purple"><i class="fa-regular fa-comments"></i></div>
+            <h3>Clear Communication</h3>
+            <p>Explaining web, SEO, and marketing steps clearly to teammates, supervisors, and clients.</p>
+          </div>
+          <div class="card">
+            <div class="card-icon icon-blue"><i class="fa-solid fa-magnifying-glass"></i></div>
+            <h3>Attention to Detail</h3>
+            <p>Carefully checking layouts, metadata, GMB listings, and office documents for accuracy.</p>
+          </div>
+          <div class="card">
+            <div class="card-icon icon-lavender"><i class="fa-regular fa-clock"></i></div>
+            <h3>Time Management</h3>
+            <p>Balancing BS IT 5th-semester studies (3.71 CGPA), NAVTTC training, and practical project work.</p>
+          </div>
+          <div class="card">
+            <div class="card-icon icon-blue"><i class="fa-solid fa-lightbulb"></i></div>
+            <h3>Problem Solving</h3>
+            <p>Identifying layout issues, keyword gaps, and optimization improvements systematically.</p>
+          </div>
+          <div class="card">
+            <div class="card-icon icon-purple"><i class="fa-solid fa-arrows-rotate"></i></div>
+            <h3>Adaptability</h3>
+            <p>Quickly adjusting across new tools, websites, and digital marketing workflows.</p>
+          </div>
+          <div class="card">
+            <div class="card-icon icon-lavender"><i class="fa-solid fa-handshake"></i></div>
+            <h3>Reliability &amp; Accountability</h3>
+            <p>Consistent task completion demonstrated during training and internship experience.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         PAGE 8: WEB DEVELOPMENT
+    ========================================================================== -->
+    <section class="page-view" id="page-web-development" data-title="Web Development">
+      <div class="page-banner">
+        <div class="container">
+          <span class="section-badge">Page 08 • Core Discipline</span>
+          <h1>Web Development</h1>
+          <p>Building structured, responsive, and SEO-friendly websites.</p>
+        </div>
+      </div>
+
+      <div class="container section-padding">
+        <div class="two-col-grid reveal">
+          <div class="card">
+            <h2>End-to-End Website Building</h2>
+            <p>
+              I build clean, responsive websites using HTML, CSS, JavaScript, and WordPress with attention to user readability and search engine structure.
+            </p>
+            <ul class="styled-list mt-15">
+              <li><strong>Responsive Layouts:</strong> Clean appearance on mobile, tablet, and desktop screens.</li>
+              <li><strong>SEO-Ready Structure:</strong> Clear heading hierarchy, clean URLs, and accessible elements.</li>
+              <li><strong>Polished Light UI:</strong> Balanced spacing, readable fonts, and soft visual hierarchy.</li>
+            </ul>
+          </div>
+
+          <div class="card card-tinted">
+            <h3>My 4-Step Development Workflow</h3>
+            <div class="step-list">
+              <div class="step-item"><span>01</span><div><h4>Structure &amp; Planning</h4><p>Organizing pages, sections, and user flow.</p></div></div>
+              <div class="step-item"><span>02</span><div><h4>Clean UI Layout</h4><p>Designing readable cards, menus, and spacing.</p></div></div>
+              <div class="step-item"><span>03</span><div><h4>Responsive Coding</h4><p>Writing semantic HTML5, CSS3, and interactive JavaScript.</p></div></div>
+              <div class="step-item"><span>04</span><div><h4>Testing &amp; On-Page SEO</h4><p>Verifying links, responsiveness, and core SEO tags.</p></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         PAGE 9: FRONT-END DEVELOPMENT
+    ========================================================================== -->
+    <section class="page-view" id="page-frontend-development" data-title="Front-End Development">
+      <div class="page-banner">
+        <div class="container">
+          <span class="section-badge">Page 09 • UI &amp; Client-Side Engineering</span>
+          <h1>Front-End Development</h1>
+          <p>Crafting clean interfaces using HTML, CSS, and Vanilla JavaScript.</p>
+        </div>
+      </div>
+
+      <div class="container section-padding">
+        <div class="three-col-grid reveal">
+          <div class="card">
+            <div class="card-icon icon-purple"><i class="fa-brands fa-html5"></i></div>
+            <h3>HTML</h3>
+            <p>Clean, semantic markup structuring headings, navigation, sections, forms, and accessible content.</p>
+          </div>
+          <div class="card">
+            <div class="card-icon icon-blue"><i class="fa-brands fa-css3-alt"></i></div>
+            <h3>CSS</h3>
+            <p>Responsive grid/flexbox layouts, light theme color tokens, hover transitions, and print styles for the CV.</p>
+          </div>
+          <div class="card">
+            <div class="card-icon icon-lavender"><i class="fa-brands fa-js"></i></div>
+            <h3>JavaScript</h3>
+            <p>Interactive navigation, mobile menu toggle, typing text, project filtering, modal preview, and form validation.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         PAGE 10: WORDPRESS DEVELOPMENT
+    ========================================================================== -->
+    <section class="page-view" id="page-wordpress-development" data-title="WordPress Development">
+      <div class="page-banner">
+        <div class="container">
+          <span class="section-badge">Page 10 • CMS Solutions</span>
+          <h1>WordPress Development</h1>
+          <p>Creating manageable, search-friendly websites and content structures with WordPress.</p>
+        </div>
+      </div>
+
+      <div class="container section-padding">
+        <div class="two-col-grid reveal">
+          <div class="card">
+            <h2>Practical WordPress Capabilities</h2>
+            <p>
+              I configure and manage WordPress websites with clear navigation, structured content, and SEO-ready setup.
+            </p>
+            <ul class="styled-list mt-15">
+              <li><strong>Theme &amp; Layout Setup:</strong> Configuring responsive themes and clean page layouts.</li>
+              <li><strong>Menus &amp; Categories:</strong> Structuring pages, categories, and permalinks for clarity.</li>
+              <li><strong>SEO Plugin Optimization:</strong> Setting focus keywords, SEO titles, and meta descriptions.</li>
+              <li><strong>Content Publishing:</strong> Formatting readable posts and pages with search intent in mind.</li>
+            </ul>
+          </div>
+
+          <div class="card card-tinted">
+            <h3>Ideal WordPress Website Types</h3>
+            <div class="mini-feature-list">
+              <div class="mini-feature">
+                <i class="fa-solid fa-pen-nib"></i>
+                <div><h4>Blogs &amp; Content Sites</h4><p>Organized articles structured for search visibility.</p></div>
+              </div>
+              <div class="mini-feature">
+                <i class="fa-solid fa-building"></i>
+                <div><h4>Business &amp; Service Pages</h4><p>Clear service descriptions and contact pathways.</p></div>
+              </div>
+              <div class="mini-feature">
+                <i class="fa-solid fa-id-card"></i>
+                <div><h4>Personal &amp; Niche Websites</h4><p>Clean layouts tailored to specific topics and audiences.</p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         PAGE 11: SEO SERVICES
+    ========================================================================== -->
+    <section class="page-view" id="page-seo-services" data-title="SEO Services">
+      <div class="page-banner">
+        <div class="container">
+          <span class="section-badge">Page 11 • Search Engine Optimization</span>
+          <h1>SEO Services</h1>
+          <p>On-Page SEO, Off-Page SEO, keyword research, content optimization, and Google My Business (GMB) SEO[cite: 2].</p>
+        </div>
+      </div>
+
+      <div class="container section-padding">
+        <div class="four-col-grid reveal">
+          <div class="card">
+            <div class="card-icon icon-purple"><i class="fa-solid fa-file-code"></i></div>
+            <h3>On-Page SEO</h3>
+            <p>Optimizing titles, meta descriptions, H1–H3 headings, internal links, URL slugs, and image alt attributes.</p>
+          </div>
+          <div class="card">
+            <div class="card-icon icon-blue"><i class="fa-solid fa-link"></i></div>
+            <h3>Off-Page SEO</h3>
+            <p>Supporting off-site authority through ethical outreach, broken-link discovery, and link awareness.</p>
+          </div>
+          <div class="card">
+            <div class="card-icon icon-lavender"><i class="fa-solid fa-key"></i></div>
+            <h3>Keyword Research</h3>
+            <p>Finding relevant primary and long-tail keywords matched to user search intent.</p>
+          </div>
+          <div class="card">
+            <div class="card-icon icon-purple"><i class="fa-solid fa-location-dot"></i></div>
+            <h3>Content &amp; GMB SEO</h3>
+            <p>Refining page content for readability and working on Google My Business (GMB) SEO[cite: 2].</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         PAGE 12: DIGITAL MARKETING
+    ========================================================================== -->
+    <section class="page-view" id="page-digital-marketing" data-title="Digital Marketing">
+      <div class="page-banner">
+        <div class="container">
+          <span class="section-badge">Page 12 • Online Growth</span>
+          <h1>Digital Marketing</h1>
+          <p>Trained through NAVTTC and applied during practical OJT work on web and search projects[cite: 2].</p>
+        </div>
+      </div>
+
+      <div class="container section-padding">
+        <div class="two-col-grid reveal">
+          <div class="card">
+            <h2>NAVTTC Training &amp; Practical Application</h2>
+            <p>
+              Through my <strong>NAVTTC</strong> training in Digital Marketing and my <strong>Triventa Global (Multan) OJT</strong>[cite: 2], I have built practical familiarity with aligning content, keywords, and website structure with target audiences.
+            </p>
+            <ul class="styled-list mt-15">
+              <li><strong>Search &amp; Content Alignment:</strong> Structuring pages around clear topics and user intent.</li>
+              <li><strong>Multi-Site Practical Exposure:</strong> Experience working on tasks connected to <code>pdfsulotinco.com</code> and <code>thelovepad.com</code>[cite: 2].</li>
+              <li><strong>Business Profile Visibility:</strong> Experience with Google My Business (GMB) SEO[cite: 2].</li>
+            </ul>
+          </div>
+
+          <div class="card card-tinted">
+            <h3>Core Digital Marketing Pillars</h3>
+            <div class="pillar-grid">
+              <div class="pillar-box"><strong>01. Visibility</strong><span>Search &amp; GMB presence[cite: 2]</span></div>
+              <div class="pillar-box"><strong>02. Relevance</strong><span>Keyword &amp; content alignment</span></div>
+              <div class="pillar-box"><strong>03. Structure</strong><span>Clean, responsive web pages</span></div>
+              <div class="pillar-box"><strong>04. Action</strong><span>Direct WhatsApp &amp; email contact</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         PAGE 13: SEO PROJECTS
+    ========================================================================== -->
+    <section class="page-view" id="page-seo-projects" data-title="SEO Projects">
+      <div class="page-banner">
+        <div class="container">
+          <span class="section-badge">Page 13 • Search Optimization Work</span>
+          <h1>SEO Projects</h1>
+          <p>SEO optimization and digital marketing project cards. (Add your live links whenever ready.)</p>
+        </div>
+      </div>
+
+      <div class="container section-padding">
+        <div class="two-col-grid reveal">
+          <article class="project-card">
+            <div class="project-thumb">
+              <div class="thumb-placeholder" style="display: flex;">
+                <i class="fa-solid fa-magnifying-glass-chart"></i>
+                <span>SEO Optimization Project</span>
+                <small>On-Page • Keyword Research • GMB SEO[cite: 2]</small>
+              </div>
+              <span class="project-tag">SEO</span>
+            </div>
+            <div class="project-body">
+              <h3>SEO Optimization Project</h3>
+              <p>
+                Covers keyword research, on-page title/meta/heading optimization, content optimization, and Google My Business (GMB) SEO workflows from OJT[cite: 2].
+              </p>
+              <div class="tag-cloud mb-15">
+                <span class="skill-pill">On-Page SEO</span>
+                <span class="skill-pill">Keyword Research</span>
+                <span class="skill-pill">GMB SEO[cite: 2]</span>
+              </div>
+              <div class="project-links">
+                <a href="#contact" data-page="contact" class="btn btn-sm btn-primary">[Add Case Study / Report Link]</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-thumb">
+              <div class="thumb-placeholder" style="display: flex;">
+                <i class="fa-solid fa-bullhorn"></i>
+                <span>Digital Marketing Project</span>
+                <small>NAVTTC Training &amp; OJT Workflows[cite: 2]</small>
+              </div>
+              <span class="project-tag">Digital Marketing</span>
+            </div>
+            <div class="project-body">
+              <h3>Digital Marketing Project</h3>
+              <p>
+                Structured digital marketing and content visibility tasks across web platforms including <code>pdfsulotinco.com</code> and <code>thelovepad.com</code>[cite: 2].
+              </p>
+              <div class="tag-cloud mb-15">
+                <span class="skill-pill">Digital Marketing</span>
+                <span class="skill-pill">Content Optimization</span>
+                <span class="skill-pill">Off-Page SEO</span>
+              </div>
+              <div class="project-links">
+                <a href="#contact" data-page="contact" class="btn btn-sm btn-primary">[Add Project Link]</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         PAGE 14: WEB DEVELOPMENT PROJECTS
+    ========================================================================== -->
+    <section class="page-view" id="page-web-projects" data-title="Web Development Projects">
+      <div class="page-banner">
+        <div class="container">
+          <span class="section-badge">Page 14 • Development Portfolio</span>
+          <h1>Web Development Projects</h1>
+          <p>Filterable showcase of portfolio, business, WordPress, SEO, and digital marketing projects.</p>
+        </div>
+      </div>
+
+      <div class="container section-padding">
+        <!-- Interactive Project Filter Buttons -->
+        <div class="filter-bar reveal" role="group" aria-label="Filter Projects">
+          <button type="button" class="filter-btn active" data-filter="all">All Projects (5)</button>
+          <button type="button" class="filter-btn" data-filter="web">Web</button>
+          <button type="button" class="filter-btn" data-filter="wordpress">WordPress</button>
+          <button type="button" class="filter-btn" data-filter="seo">SEO &amp; Marketing</button>
+        </div>
+
+        <div class="three-col-grid reveal" id="projectsGrid">
+          <article class="project-card" data-category="web">
+            <div class="project-thumb">
+              <div class="thumb-placeholder" style="display: flex;">
+                <i class="fa-solid fa-laptop-code"></i>
+                <span>Personal Portfolio Website</span>
+                <small>HTML • CSS • JavaScript</small>
+              </div>
+              <span class="project-tag">Web</span>
+            </div>
+            <div class="project-body">
+              <h3>Personal Portfolio Website</h3>
+              <p>A 20-page responsive personal portfolio and online CV built with a light theme, smooth navigation, and interactive JavaScript.</p>
+              <div class="project-links">
+                <a href="#home" data-page="home" class="btn btn-sm btn-primary">Live Preview</a>
+                <a href="#contact" data-page="contact" class="btn btn-sm btn-outline">[Add Link]</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="web">
+            <div class="project-thumb">
+              <div class="thumb-placeholder" style="display: flex;">
+                <i class="fa-solid fa-building"></i>
+                <span>Business Website</span>
+                <small>Responsive Web Layout</small>
+              </div>
+              <span class="project-tag">Web</span>
+            </div>
+            <div class="project-body">
+              <h3>Business Website</h3>
+              <p>Clean, mobile-friendly business website layout designed around clear sections, readable typography, and strong calls to action.</p>
+              <div class="project-links">
+                <a href="#contact" data-page="contact" class="btn btn-sm btn-primary">[Add Live URL]</a>
+                <a href="#contact" data-page="contact" class="btn btn-sm btn-outline">[Add Link]</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="wordpress">
+            <div class="project-thumb">
+              <div class="thumb-placeholder" style="display: flex;">
+                <i class="fa-brands fa-wordpress"></i>
+                <span>WordPress Website</span>
+                <small>CMS &amp; SEO Setup</small>
+              </div>
+              <span class="project-tag">WordPress</span>
+            </div>
+            <div class="project-body">
+              <h3>WordPress Website</h3>
+              <p>WordPress website configuration featuring organized pages/categories, clean URLs, and on-page SEO setup.</p>
+              <div class="project-links">
+                <a href="#contact" data-page="contact" class="btn btn-sm btn-primary">[Add Live URL]</a>
+                <a href="#contact" data-page="contact" class="btn btn-sm btn-outline">[Details]</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="seo">
+            <div class="project-thumb">
+              <div class="thumb-placeholder" style="display: flex;">
+                <i class="fa-solid fa-magnifying-glass-chart"></i>
+                <span>SEO Optimization Project</span>
+                <small>On-Page • Keywords • GMB[cite: 2]</small>
+              </div>
+              <span class="project-tag">SEO</span>
+            </div>
+            <div class="project-body">
+              <h3>SEO Optimization Project</h3>
+              <p>Keyword research, on-page optimization, content improvement, and Google My Business (GMB) SEO workflow[cite: 2].</p>
+              <div class="project-links">
+                <a href="#seo-projects" data-page="seo-projects" class="btn btn-sm btn-primary">View SEO Page</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="seo">
+            <div class="project-thumb">
+              <div class="thumb-placeholder" style="display: flex;">
+                <i class="fa-solid fa-bullhorn"></i>
+                <span>Digital Marketing Project</span>
+                <small>NAVTTC &amp; OJT Work[cite: 2]</small>
+              </div>
+              <span class="project-tag">Marketing</span>
+            </div>
+            <div class="project-body">
+              <h3>Digital Marketing Project</h3>
+              <p>Digital marketing and search visibility tasks including work related to <code>pdfsulotinco.com</code> and <code>thelovepad.com</code>[cite: 2].</p>
+              <div class="project-links">
+                <a href="#seo-projects" data-page="seo-projects" class="btn btn-sm btn-primary">View Details</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         PAGE 15: PORTFOLIO GALLERY (ONLY OJT LETTER IMAGE + CV DOWNLOAD)
+    ========================================================================== -->
+    <section class="page-view" id="page-gallery" data-title="Portfolio Gallery">
+      <div class="page-banner">
+        <div class="container">
+          <span class="section-badge">Page 15 • Documents &amp; OJT Proof</span>
+          <h1>Portfolio Gallery</h1>
+          <p>Includes your On Job Training (OJT) letter image (<code>images/ojt-letter.jpg</code>) and CV PDF access (<code>cv.pdf</code>)[cite: 2].</p>
+        </div>
+      </div>
+
+      <div class="container section-padding">
+        <div class="two-col-grid reveal">
+          <!-- Card 1: OJT Letter Image (images/ojt-letter.jpg) -->
+          <div class="gallery-card" data-caption="Triventa Global (Multan) — On Job Training (OJT) Letter (5 Oct 2026 – 16 Oct 2026)">
+            <div class="gallery-img-wrap">
+              <img
+                src="internship letter.jpeg"
+                alt="Triventa Global On Job Training Letter"
+                onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+              />
+              <div class="thumb-placeholder" style="display: none;">
+                <i class="fa-regular fa-file-image"></i>
+                <span>Triventa Global OJT Letter</span>
+                <small>Save the letter image as images/ojt-letter.jpg</small>
+              </div>
+            </div>
+            <div class="gallery-caption">
+              <h4>On Job Training (OJT) Letter — Triventa Global[cite: 2]</h4>
+              <span>Click to preview • Saved at <code>images/ojt-letter.jpg</code></span>
+            </div>
+          </div>
+
+          <!-- Card 2: CV File (cv.pdf) -->
+          <div class="card card-tinted">
+            <div class="card-icon icon-purple"><i class="fa-regular fa-file-pdf"></i></div>
+            <h3>Curriculum Vitae (CV PDF)</h3>
+            <p>
+              Keep your resume PDF at <code>cv.pdf</code> in the main <code>Areesha-Portfolio/</code> folder, or view and export the online resume directly.
+            </p>
+            <div class="btn-group mt-15">
+              <button type="button" class="btn btn-sm btn-primary download-cv-trigger">
+                <i class="fa-solid fa-download"></i> Download CV
+              </button>
+              <a href="#resume" data-page="resume" class="btn btn-sm btn-outline">Open Resume Page</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         PAGE 16: CERTIFICATIONS
+    ========================================================================== -->
+    <section class="page-view" id="page-certifications" data-title="Certifications">
+      <div class="page-banner">
+        <div class="container">
+          <span class="section-badge">Page 16 • Training &amp; Credentials</span>
+          <h1>Certifications</h1>
+          <p>NAVTTC Digital Marketing training, Triventa Global OJT, and additional training records[cite: 2].</p>
+        </div>
+      </div>
+
+      <div class="container section-padding">
+        <div class="three-col-grid reveal">
+          <div class="card">
+            <div class="card-icon icon-purple"><i class="fa-solid fa-certificate"></i></div>
+            <span class="badge-purple">NAVTTC Training</span>
+            <h3 class="mt-10">Digital Marketing (via NAVTTC)</h3>
+            <p class="subtitle-text">NAVTTC • Multan</p>
+            <p>Completed Digital Marketing training covering online marketing and search visibility fundamentals.</p>
+          </div>
+
+          <div class="card">
+            <div class="card-icon icon-blue"><i class="fa-solid fa-file-contract"></i></div>
+            <span class="badge-blue">OJT Letter • 19 Oct 2026[cite: 2]</span>
+            <h3 class="mt-10">On Job Training (OJT) — Digital Marketing &amp; SEO[cite: 2]</h3>
+            <p class="subtitle-text">Triventa Global (Multan) • 5 Oct 2026 – 16 Oct 2026[cite: 2]</p>
+            <p>Practical OJT covering <code>pdfsulotinco.com</code>, <code>thelovepad.com</code>, and Google My Business (GMB) SEO[cite: 2].</p>
+          </div>
+
+          <div class="card card-tinted">
+            <div class="card-icon icon-lavender"><i class="fa-solid fa-certificate"></i></div>
+            <span class="badge-purple">Academic Standing</span>
+            <h3 class="mt-10">BS Information Technology (In Progress)</h3>
+            <p class="subtitle-text">Muhammad Nawaz Shareef University of Agriculture, Multan • 5th Semester</p>
+            <p>Pursuing BS IT with a 3.71 CGPA in Multan.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         PAGE 17: ACHIEVEMENTS
+    ========================================================================== -->
+    <section class="page-view" id="page-achievements" data-title="Achievements">
+      <div class="page-banner">
+        <div class="container">
+          <span class="section-badge">Page 17 • Milestones &amp; Honors</span>
+          <h1>Achievements</h1>
+          <p>Academic standing, NAVTTC training, practical OJT completion, and 1-year internship experience[cite: 2].</p>
+        </div>
+      </div>
+
+      <div class="container section-padding">
+        <div class="two-col-grid reveal">
+          <div class="card">
+            <div class="card-icon icon-purple"><i class="fa-solid fa-award"></i></div>
+            <span class="badge-purple">Academic Milestone</span>
+            <h3 class="mt-10">3.71 CGPA in BS Information Technology</h3>
+            <p>Maintaining a 3.71 CGPA through the 5th Semester of BS Information Technology at Muhammad Nawaz Shareef University of Agriculture, Multan.</p>
+          </div>
+
+          <div class="card">
+            <div class="card-icon icon-blue"><i class="fa-solid fa-bullhorn"></i></div>
+            <span class="badge-blue">Training Milestone</span>
+            <h3 class="mt-10">Digital Marketing Training via NAVTTC</h3>
+            <p>Completed structured Digital Marketing training through NAVTTC.</p>
+          </div>
+
+          <div class="card">
+            <div class="card-icon icon-lavender"><i class="fa-solid fa-briefcase"></i></div>
+            <span class="badge-purple">OJT Milestone</span>
+            <h3 class="mt-10">Triventa Global OJT Completion[cite: 2]</h3>
+            <p>Completed 2-week Digital Marketing &amp; SEO OJT (5 Oct 2026 – 16 Oct 2026) with work on <code>pdfsulotinco.com</code>, <code>thelovepad.com</code>, and GMB SEO[cite: 2].</p>
+          </div>
+
+          <div class="card">
+            <div class="card-icon icon-blue"><i class="fa-solid fa-circle-check"></i></div>
+            <span class="badge-blue">Internship Milestone</span>
+            <h3 class="mt-10">1-Year Basic Computer Internship</h3>
+            <p>Completed 1 year of basic computer internship experience covering MS Office and computer operations.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         PAGE 18: MY SERVICES
+    ========================================================================== -->
+    <section class="page-view" id="page-services" data-title="My Services">
+      <div class="page-banner">
+        <div class="container">
+          <span class="section-badge">Page 18 • How I Can Help</span>
+          <h1>My Services</h1>
+          <p>Web development, WordPress, SEO, digital marketing, and office documentation services.</p>
+        </div>
+      </div>
+
+      <div class="container section-padding">
+        <div class="three-col-grid reveal">
+          <div class="card">
+            <div class="card-icon icon-purple"><i class="fa-solid fa-laptop-code"></i></div>
+            <h3>Front-End Website Design</h3>
+            <p>Responsive websites built with clean HTML, CSS, and JavaScript.</p>
+            <a href="#frontend-development" data-page="frontend-development" class="text-link">Explore Front-End <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+
+          <div class="card">
+            <div class="card-icon icon-blue"><i class="fa-brands fa-wordpress"></i></div>
+            <h3>WordPress Website Setup</h3>
+            <p>WordPress site setup, clean structure, and SEO configuration.</p>
+            <a href="#wordpress-development" data-page="wordpress-development" class="text-link">Explore WordPress <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+
+          <div class="card">
+            <div class="card-icon icon-lavender"><i class="fa-solid fa-magnifying-glass-chart"></i></div>
+            <h3>SEO &amp; GMB Optimization</h3>
+            <p>On-Page SEO, Off-Page SEO, keyword research, content optimization, and GMB SEO[cite: 2].</p>
+            <a href="#seo-services" data-page="seo-services" class="text-link">Explore SEO Services <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+
+          <div class="card">
+            <div class="card-icon icon-blue"><i class="fa-solid fa-bullhorn"></i></div>
+            <h3>Digital Marketing</h3>
+            <p>NAVTTC-trained digital marketing and search visibility support.</p>
+            <a href="#digital-marketing" data-page="digital-marketing" class="text-link">Explore Marketing <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+
+          <div class="card">
+            <div class="card-icon icon-purple"><i class="fa-solid fa-file-word"></i></div>
+            <h3>MS Word, Excel &amp; PowerPoint</h3>
+            <p>Organized documents, spreadsheets, and presentations from 1-year internship experience.</p>
+            <a href="#experience" data-page="experience" class="text-link">View Experience <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+
+          <div class="card card-tinted">
+            <div class="card-icon icon-purple"><i class="fa-regular fa-paper-plane"></i></div>
+            <h3>Contact &amp; Inquiries</h3>
+            <p>Reach out via WhatsApp, Email, or the contact form for projects or internships.</p>
+            <a href="#contact" data-page="contact" class="btn btn-sm btn-primary mt-10">Contact Me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         PAGE 19: TESTIMONIALS
+    ========================================================================== -->
+    <section class="page-view" id="page-testimonials" data-title="Testimonials">
+      <div class="page-banner">
+        <div class="container">
+          <span class="section-badge">Page 19 • Feedback &amp; Endorsements</span>
+          <h1>Testimonials</h1>
+          <p>Feedback and profile highlights from Multan training and academic work.</p>
+        </div>
+      </div>
+
+      <div class="container section-padding">
+        <div class="three-col-grid reveal">
+          <div class="card">
+            <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+            <p class="testimonial-text">
+              "Completed two-week On Job Training in Digital Marketing &amp; SEO at Triventa Global (Multan), working on pdfsulotinco.com, thelovepad.com, and Google My Business (GMB) SEO[cite: 2]."
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">T</div>
+              <div>
+                <h4>Triventa Global (Multan)[cite: 2]</h4>
+                <span>OJT Record • Multan</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+            <p class="testimonial-text">
+              "Pursuing BS Information Technology (5th Semester) with a 3.71 CGPA at Muhammad Nawaz Shareef University of Agriculture, Multan."
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">M</div>
+              <div>
+                <h4>MNS University of Agriculture</h4>
+                <span>Multan</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+            <p class="testimonial-text">
+              "Trained in Digital Marketing via NAVTTC with 1 year of basic computer internship experience and skills in Web Development, WordPress, and SEO."
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">A</div>
+              <div>
+                <h4>Areesha</h4>
+                <span>Multan</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         PAGE 20: CONTACT ME
+    ========================================================================== -->
+    <section class="page-view" id="page-contact" data-title="Contact Me">
+      <div class="page-banner">
+        <div class="container">
+          <span class="section-badge">Page 20 • Get In Touch</span>
+          <h1>Contact Me</h1>
+          <p>Connect via WhatsApp, Email, LinkedIn, Instagram, Facebook, or the message form below.</p>
+        </div>
+      </div>
+
+      <div class="container section-padding">
+        <div class="contact-grid reveal">
+          <div class="contact-info-stack">
+            <div class="card">
+              <h3>Direct Contact Channels</h3>
+              <p>Click any button below to reach out directly.</p>
+
+              <div class="contact-method-list">
+                <a href="https://wa.me/923187885089" target="_blank" rel="noopener noreferrer" class="contact-method-item whatsapp-card">
+                  <div class="method-icon"><i class="fa-brands fa-whatsapp"></i></div>
+                  <div>
+                    <span class="method-label">WhatsApp Direct</span>
+                    <strong>+92 318 7885089</strong>
+                    <small>Click to chat on WhatsApp</small>
+                  </div>
+                </a>
+
+                <a href="mailto:rasheedareesha41@gmail.com" class="contact-method-item email-card">
+                  <div class="method-icon"><i class="fa-regular fa-envelope"></i></div>
+                  <div>
+                    <span class="method-label">Email Address</span>
+                    <strong>rasheedareesha41@gmail.com</strong>
+                    <small>Click to open email client</small>
+                  </div>
+                </a>
+              </div>
+
+              <div class="mt-20">
+                <h4>Social &amp; Profile Buttons</h4>
+                <div class="social-row mt-10">
+                  <a href="https://www.linkedin.com/in/areesha-rasheed-110907450/" target="_blank" rel="noopener noreferrer" class="social-pill">
+                    <i class="fa-brands fa-linkedin-in"></i> LinkedIn Profile
+                  </a>
+                  <a href="https://www.instagram.com/areeshy_dm_and_seo/" target="_blank" rel="noopener noreferrer" class="social-pill">
+                    <i class="fa-brands fa-instagram"></i> @AREESHY_DM_AND_SEO
+                  </a>
+                  <a href="https://www.facebook.com/share/1UUg393RMX/" target="_blank" rel="noopener noreferrer" class="social-pill">
+                    <i class="fa-brands fa-facebook-f"></i> Facebook Link 1
+                  </a>
+                  <a href="https://www.facebook.com/share/1HiXhgkHxn/" target="_blank" rel="noopener noreferrer" class="social-pill">
+                    <i class="fa-brands fa-facebook"></i> Facebook Link 2
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="info-callout">
+              <i class="fa-solid fa-server"></i>
+              <div>
+                <strong>How This Contact Form Works Without a Backend:</strong> Static HTML/CSS/JS pages don't run a backend mail server on their own. When validated, the form prepares your message for <code>rasheedareesha41@gmail.com</code> via your email app or lets you send it straight via WhatsApp.
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>Send a Message</h3>
+            <form id="contactForm" novalidate>
+              <div class="form-group">
+                <label for="contactName">Your Name <span class="req">*</span></label>
+                <input type="text" id="contactName" name="name" placeholder="Enter your full name" required />
+                <small class="error-msg" id="nameError"></small>
+              </div>
+
+              <div class="form-group">
+                <label for="contactEmail">Your Email <span class="req">*</span></label>
+                <input type="email" id="contactEmail" name="email" placeholder="Enter your email address" required />
+                <small class="error-msg" id="emailError"></small>
+              </div>
+
+              <div class="form-group">
+                <label for="contactSubject">Subject <span class="req">*</span></label>
+                <input type="text" id="contactSubject" name="subject" placeholder="e.g., Website Project, SEO Inquiry, Internship" required />
+                <small class="error-msg" id="subjectError"></small>
+              </div>
+
+              <div class="form-group">
+                <label for="contactMessage">Message <span class="req">*</span></label>
+                <textarea id="contactMessage" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+                <small class="error-msg" id="messageError"></small>
+              </div>
+
+              <div class="form-actions">
+                <button type="submit" class="btn btn-primary">
+                  <i class="fa-regular fa-paper-plane"></i> Send Message
+                </button>
+                <button type="button" id="sendViaWhatsappBtn" class="btn btn-secondary">
+                  <i class="fa-brands fa-whatsapp"></i> Send via WhatsApp
+                </button>
+              </div>
+
+              <div class="form-success-banner" id="formSuccessBanner" role="status" aria-live="polite" style="display: none;">
+                <i class="fa-solid fa-circle-check"></i>
+                <div>
+                  <strong>Message Ready &amp; Validated!</strong>
+                  <p id="formSuccessText">Thank you! Your message has been formatted for rasheedareesha41@gmail.com.</p>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== LIGHTBOX MODAL FOR GALLERY ==================== -->
+  <div class="modal-overlay" id="galleryModal" aria-hidden="true">
+    <div class="modal-box">
+      <button type="button" class="modal-close" id="closeGalleryModal" aria-label="Close Preview">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div id="modalPreviewContent"></div>
+      <p id="modalCaptionText" class="modal-caption"></p>
+    </div>
+  </div>
+
+  <!-- ==================== SHARED FOOTER (ALL 20 PAGES LINKED) ==================== -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#home" class="brand-logo" data-page="home">
+          <span class="logo-badge">A</span>
+          <span class="logo-text">Areesha<span class="logo-dot">.</span></span>
+        </a>
+        <p class="mt-15">
+          BS Information Technology (5th Semester • 3.71 CGPA) at Muhammad Nawaz Shareef University of Agriculture, Multan. Web Developer, SEO Specialist &amp; Digital Marketer (NAVTTC &amp; Triventa Global OJT)[cite: 2].
+        </p>
+        <div class="footer-contact-mini">
+          <a href="mailto:rasheedareesha41@gmail.com"><i class="fa-regular fa-envelope"></i> rasheedareesha41@gmail.com</a>
+          <a href="https://wa.me/923187885089" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i> +92 318 7885089</a>
+        </div>
+        <div class="footer-social-buttons mt-15">
+          <a href="https://www.linkedin.com/in/areesha-rasheed-110907450/" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn" title="LinkedIn">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+          <a href="https://www.instagram.com/areeshy_dm_and_seo/" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Instagram" title="Instagram: @AREESHY_DM_AND_SEO">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="https://www.facebook.com/share/1UUg393RMX/" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Facebook Link 1" title="Facebook Link 1">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+          <a href="https://www.facebook.com/share/1HiXhgkHxn/" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Facebook Link 2" title="Facebook Link 2">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+        </div>
+      </div>
+
+      <div>
+        <h4>Profile &amp; Career</h4>
+        <ul class="footer-links">
+          <li><a href="#home" data-page="home">Home</a></li>
+          <li><a href="#about" data-page="about">About Me</a></li>
+          <li><a href="#resume" data-page="resume">Professional Resume</a></li>
+          <li><a href="#education" data-page="education">Education</a></li>
+          <li><a href="#experience" data-page="experience">Work Experience</a></li>
+          <li><a href="#technical-skills" data-page="technical-skills">Technical Skills</a></li>
+          <li><a href="#soft-skills" data-page="soft-skills">Soft Skills</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Expertise &amp; Services</h4>
+        <ul class="footer-links">
+          <li><a href="#services" data-page="services">My Services</a></li>
+          <li><a href="#web-development" data-page="web-development">Web Development</a></li>
+          <li><a href="#frontend-development" data-page="frontend-development">Front-End Development</a></li>
+          <li><a href="#wordpress-development" data-page="wordpress-development">WordPress Development</a></li>
+          <li><a href="#seo-services" data-page="seo-services">SEO Services</a></li>
+          <li><a href="#digital-marketing" data-page="digital-marketing">Digital Marketing</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Portfolio &amp; More</h4>
+        <ul class="footer-links">
+          <li><a href="#web-projects" data-page="web-projects">Web Development Projects</a></li>
+          <li><a href="#seo-projects" data-page="seo-projects">SEO Projects</a></li>
+          <li><a href="#gallery" data-page="gallery">Portfolio Gallery</a></li>
+          <li><a href="#certifications" data-page="certifications">Certifications</a></li>
+          <li><a href="#achievements" data-page="achievements">Achievements</a></li>
+          <li><a href="#testimonials" data-page="testimonials">Testimonials</a></li>
+          <li><a href="#contact" data-page="contact">Contact Me</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>&copy; <span id="currentYear">2026</span> Areesha. All Rights Reserved.</p>
+        <p>Web Developer • SEO Specialist • Digital Marketer</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button type="button" class="back-to-top" id="backToTopBtn" aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- Main JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>
